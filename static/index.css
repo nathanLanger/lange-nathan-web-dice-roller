@@ -1,0 +1,49 @@
+/*
+Author: Nathan Lange
+Class:  Software Engineering
+Description: Web Dice Roller
+*/
+
+body {
+    background-color:black;
+    background-image:url("images/background.png");
+    background-repeat:no-repeat;
+    background-position-x:90%;
+    background-position-y:-20%;
+    background-size: 57.5%;
+}
+h1,i,pre {
+    color:tomato;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+* {
+    color:lightskyblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#dieOne {
+    width: 60%;
+}
+#dieTwo {
+    width: 60%;
+}
+#dieThree {
+    width: 60%;
+}
+#dieFour {
+    width: 60%;
+}
+#dieFive {
+    width: 60%;
+}
+#rollButton {
+    margin-left:60%;
+    width:10%;
+}
+.rightJustifiedNums {
+    color:black;
+    display: flex;
+    float:right;
+    margin-right: 100px;
+}
